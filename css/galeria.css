@@ -1,0 +1,39 @@
+#container3_conteudo2 {
+    border: 5px solid #F2522E;
+    width: 50%;
+    max-width: 750px;
+    min-width: 300px;
+    margin: 20px auto;
+    padding: 5px;
+    border-bottom: none;
+}
+
+#container3_conteudo2 h2 {
+    margin: 20px auto;
+}
+
+.setas-galeria {
+    margin: 35px 0 55px 0;
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+.setas-galeria img {
+    max-width: 40px;
+    width: 100%;
+    min-width: 25px;
+    cursor: pointer;
+}
+
+.carrosel {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.carrosel > img {
+    width: 100%;
+    height: 70vh;
+    margin: 0 auto;
+    border-radius: 5px;
+}

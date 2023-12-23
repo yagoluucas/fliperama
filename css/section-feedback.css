@@ -1,0 +1,48 @@
+.section-4 {
+    padding: 0 8%;
+}
+
+.section-4 h2 {
+    margin: 170px auto;
+    font-size: 1.9rem;
+}
+
+.feedback {
+    display: flex;
+    margin-top: 6vh;
+}
+
+.feedback > div.usuarios{
+    padding: 10px;
+    margin: 3vw;
+    border-radius: 10px;
+    background: #F2522E;
+    color: #000;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.feedback div.usuarios img{
+width: 90%;
+min-width: 60px;
+max-width: 220px;
+position: absolute;
+top: -45%;
+}
+
+.feedback div.usuarios p {
+    margin: 120px auto 20px auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .feedback {
+        flex-direction: column;
+    }
+
+    .feedback > div.usuarios:nth-child(2),  .feedback > div.usuarios:nth-child(3){
+        margin: 200px auto 0 auto;
+    }
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlyPyc - Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="imagens/maquina-de-fliperama-favicon.png" type="image/x-icon">
+</head>
+<body id="principal">
+
+    <header>
+        <div id="cabecalho">
+
+            <input type="search" placeholder="Procurar Unidade">
+
+            <picture>
+                <img src="imagens/flypyc.png" alt="Logo da FlyPyc em azul e laranja">
+            </picture>
+
+            <nav>
+                <ul class="menu-hamburguer js-menu-hamburger">
+                    <li><a id="primeiro_link" href="">Home</a></li>
+                    <li><a href="">Contato</a></li>
+                    <li><a href="">Fotos</a></li>
+                </ul>
+            </nav>
+
+            <img id="js-menu-logo" class="logo-menu-hamburguer js-menu-logo block" src="imagens/menu-icon.png" alt="">
+
+            <aside class="none container-menu-hamburger"> 
+                <div data-menu="fundo-saida" class="fundo-menu-hamburguer none">
+                    <img class="logo-menu-hamburguer js-menu-logo-fechar block" src="imagens/icon-menu-fechar.png" alt="">
+                    <nav>
+                        <ul>
+                            <li><a id="primeiro_link" href="">Home</a></li>
+                            <li><a href="#">Contato</a></li>
+                            <li><a href="#">Fotos</a></li>
+                        </ul>
+                    </nav>
+
+                    <input type="search" placeholder="Procurar Unidade">
+                </div>
+            </aside>
+
+        </div>
+    </header>
+
+    <main>
+        <section id="container1">
+
+            <div id="container1_separacao">
+                <div class="container1_conteudo">
+                    <div id="item1">
+                        <h1>
+                            Diversão Clássica
+                        </h1>
+                        <h2>
+                            Reviva a era dos arcades
+                        </h2>
+                    </div>
+
+                    <p>
+                        Jogos retrô, nostalgia garantida. Venha se divertir no nosso fliperama vintage!
+                    </p>
+
+                    <a href="#" data-btn="saiba-mais" class="botaoSaibaMais">Saiba Mais</a>
+                </div>
+                <div class="container1_conteudo">
+                   <img data-tooltip="fliperama" aria-label="Clique para iniciar o jogo" src="imagens/fliperama.png" alt="imagem de um fliperama">
+                </div>
+            </div>
+
+            <div id="divisor">
+                <img src="imagens/fundo-1 (1).png" alt="">
+            </div>
+            
+        </section>
+
+        <section id="container2"> 
+           <div>
+               <h2>Lorem, ipsum dolor.</h2>
+               <div class="container-flex">
+                   <div data-animation-left="animation-section" class="container2_conteudo opacidade-zero">
+                        <div>
+                            <img  class="animacao_nave_movel" src="imagens/nave.png" alt="">
+                        </div>
+                       <button data-btn="nave" class="botao_nave">
+                            Start Game
+                        </button>
+                   </div>
+                    <div data-animation-top="animation-section" class="container2_conteudo opacidade-zero">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit omnis eum minima, reprehenderit expedita iure sit aspernatur sunt suscipit quia beatae recusandae nisi maxime. Odit accusamus modi magni eius quisquam!</p>
+                    </div>
+               </div>
+           </div>
+        </section>
+
+
+        <section id="container3">
+           
+           <h1 class="animation-flip">teste</h1>
+
+           <div id="container3_conteudo">
+               <div data-animation-top="animation-section" class="container3_conteudo opacidade-zero">
+                    <h2>Teste</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id veritatis corrupti vel tempora, quasi enim unde officiis autem exercitationem dolorum.</p>
+               </div>
+
+               <div data-animation-top="animation-section" class="container3_conteudo opacidade-zero">
+                <h2>Teste</h2>
+                
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam saepe labore temporibus quo corporis hic quisquam minus voluptas asperiores iure?</p>
+               </div>
+
+           </div>
+
+           <div id="container3_conteudo2">
+                <h2>Galeria</h2>
+                
+                <div data-galeria class="carrosel">
+                    <img class="image-galery" data-galeria="first-image" id="imagem1" src="imagens/1.png" alt="imagem de sala de jogos futuristica">
+
+                    <img class="none" data-galeria="last-image" src="imagens/2.png" alt="">
+
+                    <div class="setas-galeria">
+                        <img class="js-anterior" src="imagens/simbolo-de-setas-duplas-para-a-esquerda.png" alt="seta apontando para esqueda">
+                        <img class="js-proximo" src="imagens/simbolo-de-setas-duplas-para-a-direita-para-avancar.png" alt="seta apontando para direita">
+                    </div>
+                </div>
+           </div>
+
+           <img class="divisor-container3" src="imagens/6.png" alt="">
+        </section>
+
+        <section class="section-4">
+            <h2>Feedback dos clientes</h2>
+
+            <div class="feedback js-feedback">
+                <div class="usuarios">
+                    <img src="imagens/usuario-3.png" alt="foto de um cliente que deu feedback">
+                    <p>Excelente experiência na Flypyc! Os fliperamas são muito bem mantidos, com uma grande variedade de jogos retrô e modernos. O ambiente é descontraído e amigável. Recomendo a todos os entusiastas de games clássicos e modernos</p>
+                    <cite>Pedro Santos</cite>
+                </div>
+                <div class="usuarios">
+                    <img src="imagens/usuario-2.png" alt="foto de um cliente que deu feedback">
+                    <p>A Flypyc é o lugar perfeito para quem busca diversão nostálgica. Os fliperamas estão em ótimo estado, e a seleção de jogos é incrível. Além disso, a equipe é super atenciosa. Ótimo local para reunir amigos e relembrar os bons tempos dos arcades.</p>
+                    <cite>Ana Oliveira</cite>
+                </div>
+                <div class="usuarios">
+                    <img src="imagens/usuario-1.png" alt="foto de um cliente que deu feedback">
+                    <p>Adorei a Flypyc! Ambiente descontraído, fliperamas bem conservados e uma variedade incrível de jogos. A mistura de clássicos e novidades é sensacional. Fui muito bem atendido pela equipe, que demonstrou conhecimento e paixão pelos jogos. Com certeza voltarei!</p>
+                    <cite>João Silva</cite>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="section-5">
+
+        </section>
+    </main>
+    <script type="module" src="javascript/script.js"></script>
+</body>
+</html>
